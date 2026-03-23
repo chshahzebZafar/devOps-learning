@@ -1,7 +1,7 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.end("Hello DevOps World");
+  res.end("CI is added to the projectv - v2");
 });
 
 server.listen(3000, () => {
